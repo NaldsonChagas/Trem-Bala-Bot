@@ -38,7 +38,7 @@ module.exports = {
         type: 'mp4'
       },
       liso = {
-        file: __dirname+'/media/liso.mp4',
+        file: __dirname+'/media/ta-liso.mp4',
         keywords: [
           'liso',
         ],
