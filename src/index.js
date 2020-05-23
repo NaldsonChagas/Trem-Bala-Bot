@@ -26,7 +26,7 @@ function seachTwets() {
 
 (function start() {
   setInterval(() => {
-    //seachTwets()  
+    seachTwets()  
   }, 8000);
 })()
 
