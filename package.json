@@ -4,12 +4,13 @@
   "description": "A bot that tweet videos about Trem Bala",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "start": "node src/index.js"
   },
   "author": "Naldson Chagas",
   "license": "MIT",
   "dependencies": {
     "dotenv": "^8.2.0",
+    "express": "^4.17.1",
     "twit": "^2.2.11"
   }
 }

@@ -26,6 +26,15 @@ function seachTwets() {
 
 (function start() {
   setInterval(() => {
-    seachTwets()  
+    //seachTwets()  
   }, 8000);
 })()
+
+const express = require('express')
+const app = express()
+
+app.get('*', (req, res) => res.json( {message: 'Olha o deeeeedo'} ))
+
+app.listen(process.env.PORT || 8080, () => {
+  console.log("It's works!")
+})
